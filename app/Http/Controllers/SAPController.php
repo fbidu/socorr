@@ -45,11 +45,12 @@ class SAPController extends Controller
 
     public function search($name)
     {
-
     	$raw = $this->searchDescription($name);
     	$xml = simplexml_load_string($raw);
-    	$xpath = "//body/div/div[2]/div[2]/div[2]/div[2]/table//tr/td[1]/td";
+        $xpath = "//body/div/div[2]/div[2]/div[2]/div[2]/table";
+        $xpath = "//body/div/div[2]/div[2]/div[2]/div[2]/table/tbody/tr/td";
     	$processor = new Crawler($xml->changes->update[0]->__toString());
-    	return $processor->filterXPath($xpath)->text();
+        $data = $processor->filterXPath($xpath)->text();
+        return json_encode(utf8_decode($data) != "Nenhum item encontrado");
    }
 }
