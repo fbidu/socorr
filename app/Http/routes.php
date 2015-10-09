@@ -14,3 +14,9 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('/viewState', 'SAPController@getViewState');
+
+Route::get('/search/{description}', 'SAPController@search');
+
+Route::get('/rawsearch/{description}', 'SAPController@searchDescription');
