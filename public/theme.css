@@ -1,0 +1,31 @@
+.title
+{
+	font-family: 'Raleway', sans-serif;
+    font-weight: 900;
+    font-size: 5em;
+}
+
+h2.subtitle
+{
+	font-family: 'Raleway', sans-serif;
+	font-weight: 800;
+}
+
+li
+{
+	font-family: 'Raleway'
+	font-weight: 400;
+	font-size: 1.5em;
+}
+
+.about li
+{
+	line-height: 2;
+}
+
+li i.fa
+{
+	float: right;
+	text-align: right;
+	line-height: 2;
+}
