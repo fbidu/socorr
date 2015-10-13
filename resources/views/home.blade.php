@@ -12,7 +12,7 @@
 <div class="col-md-6">
 	<div class="header">
 		<h1 class="title">Socorr!</h1>
-		<p class="subtitle">
+		<p class="description">
 		Você perde coisas pela UNICAMP? Você nunca se lembra de consultar no site/aplicativo de "achados e perdidos" da vigilância do campus? Crie seu cadastro aqui que a gente te avisa se algum documento seu for encontrado!
 		</p>
 	</div>
@@ -33,34 +33,35 @@
 			<div class="form-group">
 				<div class="input-group">
 					<span class="input-group-addon" id="name-description"><i class="fa fa-user"></i></span>
-    				<input type="text" class="form-control" id="name" placeholder="Seu nome completo - conforme está em seus documentos" aria-describedby="name-description">
+    				<input required="true" type="text" class="form-control" id="name" placeholder="Seu nome completo - conforme está em seus documentos" aria-describedby="name-description">
     			</div>
   			</div>
   			<div class="form-group">
   				<div class="input-group">
 					<span class="input-group-addon" id="email-description"><i class="fa fa-envelope"></i></span>
-    				<input type="email" class="form-control" id="email" placeholder="Seu e-mail - mandaremos notificações para ele, caso algo seja encontrado" aria-describedby="email-description">
+    				<input required="true" type="email" class="form-control" id="email" placeholder="Seu e-mail - mandaremos notificações para ele, caso algo seja encontrado" aria-describedby="email-description">
     			</div>
   			</div>
 			<div class="form-group">
 				<div class="input-group">
 					<span class="input-group-addon" id="password-description"><i class="fa fa-key"></i></span>
- 					<input type="password" class="form-control" id="password" placeholder="Escolha uma senha - mínimo de 6 caracteres - para que você faça login e veja seu histórico de notificações" aria-describedby="password-description">
+ 					<input required="true" type="password" class="form-control" id="password" placeholder="Escolha uma senha - mínimo de 6 caracteres - para que você faça login e veja seu histórico de notificações" aria-describedby="password-description">
  				</div>
   			</div>
   			<div class="form-group">
 				<div class="input-group">
 					<span class="input-group-addon" id="password-confirmation-description"><i class="fa fa-key"></i></span>
- 					<input type="password" class="form-control" id="password-confirmation" placeholder="Confirme sua senha" aria-describedby="password-confirmation-description">
+ 					<input required="true" type="password" class="form-control" id="password-confirmation" placeholder="Confirme sua senha" aria-describedby="password-confirmation-description">
  				</div>
   			</div>
   			<div class="form-group">
 				<button type="submit" class="btn btn-default">Socorr!</button>
 			</div>
 		</form>
-
 	</div>
-
+	<div class="footer">
+		Com <i class="fa fa-heart"></i>, <a href="http://felipevr.com">FBidu</a>
+	</div>
 </div>
 <div class="col-md-3"></div>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>

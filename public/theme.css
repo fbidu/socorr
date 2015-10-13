@@ -1,31 +1,52 @@
-.title
+body, html
 {
 	font-family: 'Raleway', sans-serif;
+	font-weight: 400;
+}
+.header
+{
+	margin-top: 0px;
+}
+.title
+{
+	margin-top: 0px;
+
     font-weight: 900;
-    font-size: 5em;
+    font-size: 50px;
+    text-align: center;
+}
+
+.description
+{
+	font-weight: 400;
+	font-size: 20px;
 }
 
 h2.subtitle
 {
-	font-family: 'Raleway', sans-serif;
 	font-weight: 800;
 }
 
 li
 {
-	font-family: 'Raleway'
 	font-weight: 400;
-	font-size: 1.5em;
+	font-size: 20px;
 }
 
 .about li
 {
-	line-height: 2;
+	line-height: 1.6;
 }
 
 li i.fa
 {
 	float: right;
 	text-align: right;
-	line-height: 2;
+	line-height: 1.6;
+}
+
+.footer
+{
+	border-top: thin solid black;
+	font-size: 15px;
 }
