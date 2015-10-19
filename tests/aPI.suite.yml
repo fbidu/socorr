@@ -1,0 +1,7 @@
+class_name: APITester
+modules:
+    enabled:
+        - \Helper\API
+        - Asserts
+        - REST:
+            depends: PhpBrowser
