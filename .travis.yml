@@ -14,8 +14,6 @@ install:
     - composer install
     
 before_script:
-    - php artisan key:generate
-    - php artisan migrate
     - php vendor/codeception/codeception/codecept build
 
 script: php vendor/codeception/codeception/codecept run
