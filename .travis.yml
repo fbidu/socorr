@@ -3,7 +3,9 @@ php:
     - 5.5
     - 5.6
     - nightly
-
+addons:
+    code_climate:
+        repo_token: 0cdce7fbbf13b8dc2172545d5cb5a899d9cca986612fbe0d6d53c061c82a0bda
 cache:
     directories:
         - vendor
