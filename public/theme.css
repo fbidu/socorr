@@ -1,0 +1,52 @@
+body, html
+{
+	font-family: 'Raleway', sans-serif;
+	font-weight: 400;
+}
+.header
+{
+	margin-top: 0px;
+}
+.title
+{
+	margin-top: 0px;
+
+    font-weight: 900;
+    font-size: 50px;
+    text-align: center;
+}
+
+.description
+{
+	font-weight: 400;
+	font-size: 20px;
+}
+
+h2.subtitle
+{
+	font-weight: 800;
+}
+
+li
+{
+	font-weight: 400;
+	font-size: 20px;
+}
+
+.about li
+{
+	line-height: 1.6;
+}
+
+li i.fa
+{
+	float: right;
+	text-align: right;
+	line-height: 1.6;
+}
+
+.footer
+{
+	border-top: thin solid black;
+	font-size: 15px;
+}
